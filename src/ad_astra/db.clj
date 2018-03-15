@@ -28,7 +28,6 @@
     (let [next-version (inc last-applied-version)
           commands ((keyword (str next-version)) migration-map)]
       (println "Applying version:" next-version)
-      (println "Commands:" commands)
       (when-not (nil? commands)
         (do
           (run-migration (eval commands))
