@@ -1,5 +1,7 @@
 # ad-astra
 
+https://circleci.com/gh/finomayato/ad-astra.git?style=shield&circle-token=:circle-token
+
 FIXME: description
 
 ## Installation
