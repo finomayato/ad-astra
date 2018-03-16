@@ -1,5 +1,7 @@
 # ad-astra
 
+![Build](https://circleci.com/gh/finomayato/ad-astra.svg?style=shield&circle-token=:circle-token)
+
 FIXME: description
 
 ## Installation
