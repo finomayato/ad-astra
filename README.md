@@ -1,6 +1,10 @@
 # ad-astra
 
+<<<<<<< HEAD
 https://circleci.com/gh/finomayato/ad-astra.git?style=shield&circle-token=:circle-token
+=======
+https://circleci.com/gh/:owner/:repo.svg?style=shield&circle-token=:circle-token
+>>>>>>> 8f2bb86cef03083a2dbbef871cff10e8fad0469f
 
 FIXME: description
 
