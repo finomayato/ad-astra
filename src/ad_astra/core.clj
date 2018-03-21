@@ -1,10 +1,14 @@
 (ns ad-astra.core
-  (:require [ring.middleware.params :refer [wrap-params]]))
+  (:require [ring.middleware.json :refer [wrap-json-params
+                                          wrap-json-response]])
+  (:require [ring.util.response :refer [response]]))
 
 (defn handler [request]
-  {:status 200
-   :headers {"Content-Type" "text/html"}
-   :body "Hello World"})
+  (prn request)
+  (when (= :get (:request-method request))
+    (response {"name" "Vadim"})))
 
 (def app
-  (-> handler wrap-params))
+  (-> handler
+      wrap-json-params
+      wrap-json-response))
