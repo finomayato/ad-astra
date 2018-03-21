@@ -6,6 +6,7 @@
                  [ring/ring-core "1.6.3"]
                  [ring/ring-jetty-adapter "1.6.3"]
                  [org.clojure/java.jdbc "0.3.6"]
-                 [com.h2database/h2 "1.4.195"]]
+                 [com.h2database/h2 "1.4.195"]
+                 [ring/ring-json "0.4.0"]]
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
